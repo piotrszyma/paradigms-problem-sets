@@ -1,0 +1,8 @@
+local L1 L2 L3 Head Tail in
+   L1 = Head|Tail
+   Head = 1
+   Tail = 2|nil
+
+   L2 = [3 2]
+   {Browse L1 = L2}
+end

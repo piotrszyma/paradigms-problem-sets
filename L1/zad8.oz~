@@ -1,0 +1,5 @@
+fun lazy {Ints N}
+   N|{Ints N+1}
+end
+
+{Browse {Ints 0}}

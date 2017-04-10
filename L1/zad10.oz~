@@ -1,0 +1,9 @@
+fun {Reverse L}
+   case L of H|T then
+      {Reverse T}|H
+   else
+      nil
+   end
+end
+
+{Browse {Reverse [1 2 3]}}
