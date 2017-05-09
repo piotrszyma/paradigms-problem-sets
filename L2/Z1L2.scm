@@ -1,0 +1,11 @@
+(define (mymap func lst)
+  (let recur ((rest lst))
+    (if (null? rest)
+        '()
+        (cons (func (car rest)) (recur (cdr rest))))))
+		
+(display "\n(mymap (lambda (x) (+ 1 x)) '(0 2 4 6 8)) => ")
+(display (mymap (lambda (x) (+ 1 x)) '(0 2 4 6 8)))
+(display "\n(mymap car '((1 2 3) (4 5 6) (7 8 9))) => ")
+(display (mymap car '((1 2 3) (4 5 6) (7 8 9))))
+(display "\n")

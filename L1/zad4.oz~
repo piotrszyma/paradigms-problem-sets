@@ -1,9 +1,0 @@
-local
-   Y = 1
-in
-   local
-      M = f(M Y)
-      [X1 Y] = L
-      L = [1 2]
-   in {Browse [M L]} end
-end
