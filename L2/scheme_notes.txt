@@ -1,1 +1,0 @@
-(define f (lambda (x) x)) == (define (f x) x) //funkcja identycznosci
